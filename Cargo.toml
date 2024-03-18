@@ -1,19 +1,19 @@
 [package]
-name = "bls_ckd"
+name = "sn_bls_ckd"
 version = "0.2.1"
 authors = ["austinabell <austinabell8@gmail.com>, traffictse <traffictse@gmail.com>"]
 edition = "2018"
 description = "BLS child key derivation"
 readme = "README.md"
 license = "Apache-2.0"
-homepage = "https://github.com/taiyi-research-institute/rust-bls-derivation"
-documentation = "https://github.com/taiyi-research-institute/rust-bls-derivation/blob/master/README.md"
-repository = "https://github.com/taiyi-research-institute/rust-bls-derivation"
+homepage = "https://github.com/maidsafe/sn_rust_bls_derivation"
+documentation = "https://github.com/maidsafe/sn_rust_bls_derivation/blob/master/README.md"
+repository = "https://github.com/maidsafe/sn_rust_bls_derivation"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-curv = { package = "curv-kzen", version = "0.10.1", default-features = false, git = "https://github.com/iancoleman/curv", features = ["num-bigint"] }
+curv = { package = "curv-kzen", version = "0.10.1", default-features = false, git = "https://github.com/maidsafe/sn_curv", features = ["num-bigint"] }
 sha2 = "0.10.6"
 hkdf = "0.12.3"
 hex = "0.3.1"
